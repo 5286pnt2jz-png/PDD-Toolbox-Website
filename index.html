@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PDD 工具箱 - 拼多多商家必备工具</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif;background:#f5f5f7;color:#1d1d1f}
+.hero{background:linear-gradient(135deg,#6c5ce7,#a29bfe);color:#fff;padding:80px 20px;text-align:center}
+.hero h1{font-size:42px;font-weight:700;margin-bottom:16px}
+.hero p{font-size:18px;opacity:0.9;max-width:600px;margin:0 auto 30px;line-height:1.6}
+.btn-group{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-top:20px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 36px;border-radius:12px;font-size:16px;font-weight:600;text-decoration:none;transition:all 0.2s}
+.btn-white{background:#fff;color:#6c5ce7}
+.btn-white:hover{transform:translateY(-2px);box-shadow:0 8px 25px rgba(0,0,0,0.2)}
+.btn-outline{background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.5)}
+.btn-outline:hover{background:rgba(255,255,255,0.1);border-color:#fff}
+.hero-hint{margin-top:16px;font-size:13px;opacity:0.7}
+.container{max-width:1000px;margin:0 auto;padding:60px 20px}
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;margin-top:40px}
+.feature{background:#fff;border-radius:16px;padding:30px;box-shadow:0 2px 12px rgba(0,0,0,0.06)}
+.feature-icon{width:50px;height:50px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:24px;margin-bottom:16px}
+.icon-purple{background:#f3f0ff;color:#6c5ce7}
+.icon-blue{background:#e3f2fd;color:#1565c0}
+.icon-green{background:#e8f5e9;color:#2e7d32}
+.icon-orange{background:#fff8e1;color:#f57f17}
+.icon-red{background:#fee;color:#e74c3c}
+.feature h3{font-size:18px;margin-bottom:8px}
+.feature p{font-size:14px;color:#666;line-height:1.6}
+.section-title{text-align:center;font-size:28px;font-weight:700;margin-bottom:10px}
+.section-desc{text-align:center;font-size:14px;color:#86868b;margin-bottom:40px}
+.steps{display:flex;justify-content:center;gap:40px;margin-top:40px;flex-wrap:wrap}
+.step{text-align:center;max-width:200px}
+.step-num{width:50px;height:50px;border-radius:50%;background:#6c5ce7;color:#fff;display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:700;margin:0 auto 12px}
+.step h4{font-size:16px;margin-bottom:4px}
+.step p{font-size:13px;color:#86868b}
+.footer{text-align:center;padding:40px 20px;color:#86868b;font-size:13px;border-top:1px solid #e5e5ea;margin-top:60px}
+.stats{display:flex;justify-content:center;gap:60px;margin-top:40px;flex-wrap:wrap}
+.stat{text-align:center}
+.stat-num{font-size:36px;font-weight:700;color:#6c5ce7}
+.stat-label{font-size:14px;color:#86868b;margin-top:4px}
+.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px;margin-top:40px}
+.product{background:#fff;border-radius:16px;padding:30px;box-shadow:0 2px 12px rgba(0,0,0,0.06);text-align:center}
+.product-badge{display:inline-block;padding:4px 12px;border-radius:20px;font-size:11px;font-weight:600;margin-bottom:16px}
+.badge-ext{background:#e8f5e9;color:#2e7d32}
+.badge-app{background:#e3f2fd;color:#1565c0}
+.product h3{font-size:20px;margin-bottom:8px}
+.product p{font-size:14px;color:#666;line-height:1.6;margin-bottom:20px}
+.product .btn{width:100%;justify-content:center}
+.product-info{text-align:left;font-size:13px;color:#86868b;line-height:2;margin-bottom:20px}
+.product-info span{color:#1d1d1f;font-weight:500}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>PDD 工具箱</h1>
+  <p>拼多多商家必备 - 退货分析、竞品监控、商品导出，一站搞定</p>
+  <div class="btn-group">
+    <a href="#products" class="btn btn-white">免费下载</a>
+    <a href="#features" class="btn btn-outline">了解更多</a>
+  </div>
+  <p class="hero-hint">支持 Chrome 浏览器扩展 + Windows 桌面端</p>
+</div>
+
+<div class="container">
+  <h2 class="section-title">选择适合你的版本</h2>
+  <p class="section-desc">桌面端功能完整，扩展版轻量便捷</p>
+
+  <div class="products" id="products">
+    <div class="product">
+      <div class="product-badge badge-ext">Chrome 扩展</div>
+      <h3>浏览器扩展版</h3>
+      <p>轻量便捷，一键采集数据</p>
+      <div class="product-info">
+        <span>功能：</span>退货数据采集、聊天记录采集<br>
+        <span>功能：</span>店铺商品导出、商品活动价导出<br>
+        <span>兼容：</span>Chrome / Edge / Brave 浏览器
+      </div>
+      <a href="/download/PDD工具箱扩展.zip" class="btn btn-white">下载扩展 (ZIP)</a>
+    </div>
+    <div class="product">
+      <div class="product-badge badge-app">桌面应用</div>
+      <h3>Windows 桌面版</h3>
+      <p>功能完整，支持AI智能分析</p>
+      <div class="product-info">
+        <span>功能：</span>退货原因分析、改进建议报告<br>
+        <span>功能：</span>聊天记录AI分类、数据可视化<br>
+        <span>系统：</span>Windows 10/11 · 双击即用
+      </div>
+      <a href="/download/PDD退货分析.exe" class="btn btn-white">下载桌面版 (68MB)</a>
+    </div>
+  </div>
+
+  <h2 class="section-title" style="margin-top:80px">核心功能</h2>
+  <p class="section-desc">一站式解决拼多多运营难题</p>
+
+  <div class="features" id="features">
+    <div class="feature">
+      <div class="feature-icon icon-purple">📦</div>
+      <h3>商品数据导出</h3>
+      <p>一键采集店铺商品列表，导出CSV包含商品ID、名称、价格、销量</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon icon-red">📊</div>
+      <h3>退货原因分析</h3>
+      <p>自动统计退货原因分布，找出主要问题，数据可视化展示</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon icon-blue">💬</div>
+      <h3>聊天记录分析</h3>
+      <p>导入消费者聊天记录，AI自动分类反馈，提取关键问题</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon icon-green">📋</div>
+      <h3>售后订单采集</h3>
+      <p>自动采集商家后台售后订单，批量导入分析退货数据</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon icon-orange">💡</div>
+      <h3>智能改进建议</h3>
+      <p>根据退货数据自动生成改进建议，帮你优化商品和服务</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon icon-purple">🎯</div>
+      <h3>竞品价格监控</h3>
+      <p>实时采集竞品价格、销量、优惠活动，掌握市场动态</p>
+    </div>
+  </div>
+
+  <h2 class="section-title" style="margin-top:80px">扩展安装步骤</h2>
+  <p class="section-desc">三步完成安装</p>
+
+  <div class="steps">
+    <div class="step">
+      <div class="step-num">1</div>
+      <h4>下载扩展</h4>
+      <p>下载ZIP文件并解压到任意文件夹</p>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <h4>加载扩展</h4>
+      <p>打开 chrome://extensions/ 开启开发者模式</p>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <h4>点击加载</h4>
+      <p>选择「加载已解压的扩展程序」，选择解压后的文件夹</p>
+    </div>
+  </div>
+
+  <div class="stats">
+    <div class="stat">
+      <div class="stat-num">21万+</div>
+      <div class="stat-label">已支持订单量</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">5类</div>
+      <div class="stat-label">退货原因分类</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">100%</div>
+      <div class="stat-label">免费使用</div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>PDD 工具箱 · 免费开源 · 仅供学习交流使用</p>
+</div>
+
+</body>
+</html>
